@@ -1,0 +1,78 @@
+Results - 
+
+Dataset - Normalizing dataset - mean = 0, stddev = 1
+		- Only Planet Related Features (Mass, Radius, Etc.) + Star
+		-  'P. Habitable Class', 'P. Min Mass (EU)', 'P. Mass (EU)', 'P. Radius (EU)', 'P. Density (EU)', 'P. Sem Major Axis (AU)'
+		- 'S. Mass (SU)', 'S. Radius (SU)', 'S. Teff (K)', 'S. Luminosity (SU)', 'S. Hab Zone Min (AU)'
+		- Upsampled to Handle Class Imbalance (required to to low number of feautres used)
+
+
+	Parameters Used - k = 0.94, n = 1.1
+	Hidden Layer = 8
+	Learning Rate = 0.02
+	Epochs = 300
+	Batch_Size = 512
+
+	ReLU - 
+		Precision of mesoplanet: 33.33
+		Recall of mesoplanet: 66.67
+		F-Score of mesoplanet: 44.44
+		Accuracy w.r.t. mesoplanet: 97.02
+
+		Precision of non-habitable: 100.0
+		Recall of non-habitable: 96.94
+		F-Score of non-habitable: 98.45
+		Accuracy w.r.t. non-habitable: 97.02
+
+		Precision of psychroplanet: 28.57
+		Recall of psychroplanet: 66.67
+		F-Score of psychroplanet: 40.0
+		Accuracy w.r.t. psychroplanet: 98.21
+
+	A-ReLU - 
+		Precision of mesoplanet: 33.33
+		Recall of mesoplanet: 66.67
+		F-Score of mesoplanet: 44.44
+		Accuracy w.r.t. mesoplanet: 97.02
+
+		Precision of non-habitable: 100.0
+		Recall of non-habitable: 96.94
+		F-Score of non-habitable: 98.45
+		Accuracy w.r.t. non-habitable: 97.02
+
+		Precision of psychroplanet: 28.57
+		Recall of psychroplanet: 66.67
+		F-Score of psychroplanet: 40.0
+		Accuracy w.r.t. psychroplanet: 98.21
+
+	Leaky ReLU - 
+		Precision of mesoplanet: 28.57
+		Recall of mesoplanet: 66.67
+		F-Score of mesoplanet: 40.0
+		Accuracy w.r.t. mesoplanet: 96.43
+
+		Precision of non-habitable: 100.0
+		Recall of non-habitable: 96.64
+		F-Score of non-habitable: 98.29
+		Accuracy w.r.t. non-habitable: 96.73
+
+		Precision of psychroplanet: 16.67
+		Recall of psychroplanet: 33.33
+		F-Score of psychroplanet: 22.22
+		Accuracy w.r.t. psychroplanet: 97.92
+
+	Leaky A-ReLU - 
+		Precision of mesoplanet: 33.33
+		Recall of mesoplanet: 83.33
+		F-Score of mesoplanet: 47.62
+		Accuracy w.r.t. mesoplanet: 96.73
+
+		Precision of non-habitable: 100.0
+		Recall of non-habitable: 96.94
+		F-Score of non-habitable: 98.45
+		Accuracy w.r.t. non-habitable: 97.02
+
+		Precision of psychroplanet: 25.0
+		Recall of psychroplanet: 33.33
+		F-Score of psychroplanet: 28.57
+		Accuracy w.r.t. psychroplanet: 98.51

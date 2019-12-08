@@ -1,0 +1,73 @@
+Results - 
+
+Dataset - Normalizing dataset - mean = 0, stddev = 1
+
+	Parameters Used - k = 0.94, n = 1.1
+	Hidden Layer = 12
+	Learning Rate = 0.015
+	Epochs = 300
+	Batch_Size = 512
+
+	ReLU - 
+		Precision of mesoplanet: 80.0
+		Recall of mesoplanet: 66.67
+		F-Score of mesoplanet: 72.73
+		Accuracy w.r.t. mesoplanet: 99.11
+
+		Precision of non-habitable: 99.69
+		Recall of non-habitable: 99.69
+		F-Score of non-habitable: 99.69
+		Accuracy w.r.t. non-habitable: 99.4
+
+		Precision of psychroplanet: 50.0
+		Recall of psychroplanet: 66.67
+		F-Score of psychroplanet: 57.14
+		Accuracy w.r.t. psychroplanet: 99.11
+
+	A-ReLU - 
+		Precision of mesoplanet: 80.0
+		Recall of mesoplanet: 66.67
+		F-Score of mesoplanet: 72.73
+		Accuracy w.r.t. mesoplanet: 99.11
+
+		Precision of non-habitable: 99.69
+		Recall of non-habitable: 99.69
+		F-Score of non-habitable: 99.69
+		Accuracy w.r.t. non-habitable: 99.4
+
+		Precision of psychroplanet: 50.0
+		Recall of psychroplanet: 66.67
+		F-Score of psychroplanet: 57.14
+		Accuracy w.r.t. psychroplanet: 99.11
+		
+	Leaky ReLU - 
+		Precision of mesoplanet: 71.43
+		Recall of mesoplanet: 83.33
+		F-Score of mesoplanet: 76.92
+		Accuracy w.r.t. mesoplanet: 99.11
+
+		Precision of non-habitable: 99.69
+		Recall of non-habitable: 99.39
+		F-Score of non-habitable: 99.54
+		Accuracy w.r.t. non-habitable: 99.11
+
+		Precision of psychroplanet: 33.33
+		Recall of psychroplanet: 33.33
+		F-Score of psychroplanet: 33.33
+		Accuracy w.r.t. psychroplanet: 98.81
+
+	Leaky A-ReLU - 
+		Precision of mesoplanet: 83.33
+		Recall of mesoplanet: 83.33
+		F-Score of mesoplanet: 83.33
+		Accuracy w.r.t. mesoplanet: 99.4
+
+		Precision of non-habitable: 99.69
+		Recall of non-habitable: 99.69
+		F-Score of non-habitable: 99.69
+		Accuracy w.r.t. non-habitable: 99.4
+
+		Precision of psychroplanet: 66.67
+		Recall of psychroplanet: 66.67
+		F-Score of psychroplanet: 66.67
+		Accuracy w.r.t. psychroplanet: 99.4

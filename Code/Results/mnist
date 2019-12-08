@@ -1,0 +1,20 @@
+Results - 
+
+Dataset - MNIST
+		- Upsampled to Handle Class Imbalance (required to to low number of feautres used)
+
+
+	Parameters Used - k = 0.94, n = 1.1
+	Hidden Layer = 400
+	Hidden Layer = 200
+	Learning Rate = 0.1
+	Epochs = 400
+	Batch_Size = 128
+
+	ReLU - Accuracy : 0.8997
+		
+	A-ReLU - Accuracy : 0.8868
+
+	Leaky ReLU - Accuracy : 0.9351
+
+	Leaky A-ReLU - Accuracy : 0.9426
